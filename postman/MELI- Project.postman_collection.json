@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "ecb8b33a-53bc-4d56-9834-429add214b75",
+		"name": "MELI- Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://ldj6wwann9.execute-api.us-west-2.amazonaws.com/dev/mutant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"dna\": [\"XXXXXX\",\"CAGTGC\",\"TTATGT\",\"AGAAGG\",\"CCCCTA\",\"TCACTG\"] }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ldj6wwann9.execute-api.us-west-2.amazonaws.com/dev/mutant",
+					"protocol": "https",
+					"host": [
+						"ldj6wwann9",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"mutant"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ldj6wwann9.execute-api.us-west-2.amazonaws.com/dev/stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ldj6wwann9.execute-api.us-west-2.amazonaws.com/dev/stats",
+					"protocol": "https",
+					"host": [
+						"ldj6wwann9",
+						"execute-api",
+						"us-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"dev",
+						"stats"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
